@@ -3,9 +3,9 @@ function isAnagram(str1, str2) {
     // Helper function to clean and sort a string
     const cleanAndSort = (str) => {
       return str
-        .replace(/[^\w]/g, '')  // Remove all non-alphanumeric characters
+        .replace(/[^\w]/g, '')//here all non alphabetic value get eliminated  // Remove all non-alphanumeric characters
         // .toLowerCase()        // Convert to lowercase or uppercase
-        .toUpperCase()
+        .toUpperCase()//convert cases
         .split('')              // Split into array of characters
         .sort()                 // Sort the array
         .join('');              // Join back into a string

@@ -6,7 +6,7 @@ function isAnagram(str1, str2) {
         .replace(/[^\w]/g, '')//here all non alphabetic value get eliminated  // Remove all non-alphanumeric characters
         // .toLowerCase()        // Convert to lowercase or uppercase
         .toUpperCase()//convert cases
-        .split('')              // Split into array of characters
+        .split('')             //split means break it at all part by part  // Split into array of characters
         .sort()                 // Sort the array
         .join('');              // Join back into a string
     };
